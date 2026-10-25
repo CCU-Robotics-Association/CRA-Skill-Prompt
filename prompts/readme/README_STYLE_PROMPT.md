@@ -8,7 +8,7 @@
 
 ## 使用方式
 
-将本文完整提供给 AI，并附上目标仓库资料、现有文档及本次修改要求。仓库内的 [README_EXAMPLE.md](./README_EXAMPLE.md) 是可直接预览的结构参考；它展示本 Prompt 的排版，不代表目标仓库的事实。使用本地图标时，将所需的 `assets/` 资源一同提供或复制到目标目录。
+将本文完整提供给 AI，并附上目标仓库资料、现有文档及本次修改要求。同目录下的 [README_EXAMPLE.md](./README_EXAMPLE.md) 是可直接预览的结构参考；它展示本 Prompt 的排版，不代表目标仓库的事实。使用本地图标时，将所需的 `assets/` 资源一同提供或复制到目标目录。
 
 以下填写表可与 Prompt 一起提交。未提供的信息先检查目标仓库，仍无法确认的必需信息使用清晰的占位文字；非必需章节省略。不要编造年份、作者、许可证或链接。
 
@@ -90,7 +90,7 @@
      - Raspberry Pi：`https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white`
    - Python 徽章统一使用 RGB(47, 76, 108)，即 #2F4C6C 作为整个徽章的背景色，文字 Python 为白色，左侧使用 Python 官方黄蓝双色双蛇 SVG 图标。保持原图形、双色渐变与比例、flat-square 样式及 20px 高度。直接复用配套的静态 SVG，不把完整 Python SVG 塞进 Shields.io URL，以免 GitHub 图片代理返回 `URI Too Long`。将文件与 README 一起交付，并按文档位置调整路径：
      `![Python](./assets/python-badge.svg)`
-     资源地址：`https://raw.githubusercontent.com/CCU-Robotics-Association/CRA-Skill-Prompt/main/assets/python-badge.svg`
+     资源地址：`https://raw.githubusercontent.com/CCU-Robotics-Association/CRA-Skill-Prompt/main/prompts/readme/assets/python-badge.svg`
    - Java 徽章保留橙色 #ED8B00 背景与白色 Java 文字，左侧添加白色咖啡杯 SVG Logo，保持图标比例、flat-square 样式及 20px 高度。使用以下链接：
      `https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTQ3LjYxNyA5OC4xMmMtMTkuMTkyIDUuMzYyIDExLjY3NyAxNi40MzkgMzYuMTE1IDUuOTY5LTQuMDAzLTEuNTU2LTYuODc0LTMuMzUxLTYuODc0LTMuMzUxLTEwLjg5NyAyLjA2LTE1Ljk1MiAyLjIyMi0yNS44NDQgMS4wOTItOC4xNjQtLjkzNS0zLjM5Ny0zLjcxLTMuMzk3LTMuNzF6bTMzLjE4OS0xMC40NmMtMTQuNDQ0IDIuNzc5LTIyLjc4NyAyLjY5LTMzLjM1NCAxLjYtOC4xNzEtLjg0NS0yLjgyMi00LjgwNS0yLjgyMi00LjgwNS0yMS4xMzcgNy4wMTYgMTEuNzY3IDE0Ljk3NyA0MS4zMDkgNi4zMzYtMy4xNC0xLjEwNi01LjEzMy0zLjEzMS01LjEzMy0zLjEzMXptMTEuMzE5LTYwLjU3NWMuMDAxIDAtNDIuNzMxIDEwLjY2OS0yMi4zMjMgMzQuMTg3IDYuMDI0IDYuOTM1LTEuNTggMTMuMTctMS41OCAxMy4xN3MxNS4yODktNy44OTEgOC4yNjktMTcuNzc3Yy02LjU1OS05LjIxNS0xMS41ODctMTMuNzkzIDE1LjYzNC0yOS41OHptOS45OTggODEuMTQ0czMuNTI5IDIuOTEtMy44ODggNS4xNTljLTE0LjEwMiA0LjI3Mi01OC43MDYgNS41Ni03MS4wOTUuMTcxLTQuNDUtMS45MzggMy44OTktNC42MjUgNi41MjYtNS4xOTIgMi43MzktLjU5MyA0LjMwMy0uNDg1IDQuMzAzLS40ODUtNC45NTItMy40ODctMzIuMDEzIDYuODUtMTMuNzQyIDkuODE1IDQ5LjgyMSA4LjA3NiA5MC44MTctMy42MzcgNzcuODk2LTkuNDY4ek04NSA3Ny44OTZjMi4zOTUtMS42MzQgNS43MDMtMy4wNTMgNS43MDMtMy4wNTNzLTkuNDI0IDEuNjg1LTE4LjgxMyAyLjQ3NGMtMTEuNDk0Ljk2NC0yMy44MjMgMS4xNTQtMzAuMDEyLjMyNi0xNC42NTItMS45NTkgOC4wMzMtNy4zNDggOC4wMzMtNy4zNDhzLTguODEyLS41OTYtMTkuNjQ0IDQuNjQ0QzE3LjQ1NSA4MS4xMzQgNjEuOTU4IDgzLjk1OCA4NSA3Ny44OTZ6bTUuNjA5IDE1LjE0NWMtLjEwOC4yOS0uNDY4LjYxNi0uNDY4LjYxNiAzMS4yNzMtOC4yMjEgMTkuNzc1LTI4Ljk3OSA0LjgyMi0yMy43MjUtMS4zMTIuNDY0LTIgMS41NDMtMiAxLjU0M3MuODI5LS4zMzQgMi42NzgtLjcyYzcuNTU5LTEuNTc1IDE4LjM4OSAxMC4xMTktNS4wMzIgMjIuMjg2ek02NC4xODEgNzAuMDY5Yy00LjYxNC0xMC40MjktMjAuMjYtMTkuNTUzLjAwNy0zNS41NTlDODkuNDU5IDE0LjU2MyA3Ni40OTIgMS41ODcgNzYuNDkyIDEuNTg3YzUuMjMgMjAuNjA4LTE4LjQ1MSAyNi44MzMtMjYuOTk5IDM5LjY2Ny01LjgyMSA4Ljc0NSAyLjg1NyAxOC4xNDIgMTQuNjg4IDI4LjgxNXptMjcuMjc0IDUxLjc0OGMtMTkuMTg3IDMuNjEyLTQyLjg1NCAzLjE5MS01Ni44ODcuODc0IDAgMCAyLjg3NCAyLjM4IDE3LjY0NiAzLjMzMSAyMi40NzYgMS40MzcgNTctLjggNTcuODE2LTExLjQzNi4wMDEgMC0xLjU3IDQuMDMyLTE4LjU3NSA3LjIzMXoiIC8%2BPC9zdmc%2B`
    - MATLAB 徽章统一使用白色 #FFFFFF 背景、蓝色 #0076A8 的 MATLAB 文字，左侧添加 MATLAB 原有彩色 SVG Logo。保持方形、无阴影的 flat-square 外观及 20px 高度，字体为 11px Verdana/Geneva/DejaVu Sans/sans-serif。制作或复用静态 SVG，准确设置文字颜色，将 SVG 文件与 README 一起交付。默认保存为 assets/matlab-badge.svg，按 README 所在目录调整引用路径：
@@ -235,7 +235,7 @@
 
 - 本地图标和自定义徽章使用相对于 README 的路径。README 位于不同目录时，调整引用路径或将所需资源一同放入对应目录。
 - 使用 `assets/icons/` 或 `assets/matlab-badge.svg` 等本地资源时，交付对应 SVG 文件及必要许可文件，确保其他人获取文档后也能显示图片。
-- 本 Prompt 的配套资源位于 [CRA-Skill-Prompt/assets](https://github.com/CCU-Robotics-Association/CRA-Skill-Prompt/tree/main/assets)。图标、Python 与 MATLAB 徽章可以直接复用；从这个仓库复制到目标仓库后再使用本地路径，不要求目标仓库原先就有这些文件。仅需某几个图标时，只复制实际使用的 SVG 及对应许可说明。
+- 本 Prompt 的配套资源位于 [README Prompt 配套资源](https://github.com/CCU-Robotics-Association/CRA-Skill-Prompt/tree/main/prompts/readme/assets)。图标、Python 与 MATLAB 徽章可以直接复用；从这个仓库复制到目标仓库后再使用本地路径，不要求目标仓库原先就有这些文件。仅需某几个图标时，只复制实际使用的 SVG 及对应许可说明。
 - 对可正常使用的短 URL，完整保留嵌入的 Base64 SVG；复杂 Logo 导致链接过长、无法通过 GitHub 图片代理时，改为随仓库提交的静态 SVG 徽章，并同步更新引用。不要只在本地预览通过就视为 GitHub 可用。彩色和渐变 Logo 保持当前图形、色彩和比例，不替换成单色版本。
 - 修改完成后检查图片路径、链接、HTML 表格和 Markdown 渲染；检查顶部徽章是否仍在原位置、原顺序，保留已有空行分组。
 
